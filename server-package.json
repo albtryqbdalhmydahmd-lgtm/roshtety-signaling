@@ -1,0 +1,14 @@
+{
+  "name": "roshtety-signaling",
+  "version": "1.0.0",
+  "main": "peer-server.js",
+  "scripts": {
+    "start": "node peer-server.js",
+    "mapper": "node code-mapper.js"
+  },
+  "dependencies": {
+    "peer": "^1.0.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
